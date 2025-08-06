@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de Acceso</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .folder-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .folder-list a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            padding: 15px 30px;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+            display: block;
+        }
+        .folder-list a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Acceso a Carpetas</h1>
+    <ul class="folder-list">
+        <li><a href="marketing/index.html">Marketing</a></li>
+        <li><a href="admin/index.html">Admin</a></li>
+        <li><a href="contabilidad/index.html">Contabilidad</a></li>
+        <li><a href="design/index.html">Design</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
